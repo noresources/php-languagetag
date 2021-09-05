@@ -8,11 +8,11 @@
 	], 
 	"license": "MIT", 
 	"authors": [
-			{
+		{
 			"name": "Renaud Guillard", 
 			"email": "dev@nore.fr", 
 			"role": "lead"
-			}
+		}
 	], 
 	"support": {
 		"issues": "https://github.com/noresources/ns-php-languagetag/issues"
@@ -23,7 +23,6 @@
 			"NoreSources\\Language\\Test\\": "tests/src/"
 		}
 	}, 
-	"minimum-stability": "stable", 
 	"require": {
 		"php": ">= 5.5", 
 		"noresources/ns-php-core": "^2.3.0"
@@ -36,7 +35,7 @@
 	}, 
 	"extra": {
 		"branch-alias": {
-			"dev-master": "1.0.x-dev"
+			"dev-master": "1.1.x-dev"
 		}
 	}, 
 	"config": {

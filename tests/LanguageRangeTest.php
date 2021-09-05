@@ -57,7 +57,7 @@ class LanguageRangeTest extends \PHPUnit\Framework\TestCase
 			$result = null;
 			try
 			{
-				$result = LanguageRange::fromString($text, $type);
+				$result = LanguageRange::createFromString($text, $type);
 			}
 			catch (\InvalidArgumentException $e)
 			{
@@ -104,7 +104,7 @@ class LanguageRangeTest extends \PHPUnit\Framework\TestCase
 			$range = Container::keyValue($test, 'range');
 			$tags = Container::keyValue($test, 'tags');
 
-			$range = LanguageRange::fromString($range);
+			$range = LanguageRange::createFromString($range);
 			$filter = new LanguageRangeFilter($range);
 
 			foreach ($tags as $tag => $expected)

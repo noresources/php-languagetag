@@ -25,7 +25,7 @@ class LanguageRangeFilter
 			if (\is_array($range))
 				$range = \implode('-', $range);
 
-			$range = LanguageRange::fromString(
+			$range = LanguageRange::createFromString(
 				TypeConversion::toString($range),
 				LanguageRange::TYPE_EXTENDED);
 		}

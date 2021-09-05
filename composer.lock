@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae56b487a2f0d5c01c1f942dceb9f366",
+    "content-hash": "d22ac3f188c5be445a372bfa25a4f503",
     "packages": [
         {
             "name": "noresources/ns-php-core",
-            "version": "v2.3.1",
+            "version": "v2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/noresources/ns-php-core.git",
-                "reference": "68767dcffd8ce365e61537b47b638ddfb9ed38cf"
+                "reference": "1c17439a51628ca774daabf1b7332f4536f56dd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/noresources/ns-php-core/zipball/68767dcffd8ce365e61537b47b638ddfb9ed38cf",
-                "reference": "68767dcffd8ce365e61537b47b638ddfb9ed38cf",
+                "url": "https://api.github.com/repos/noresources/ns-php-core/zipball/1c17439a51628ca774daabf1b7332f4536f56dd3",
+                "reference": "1c17439a51628ca774daabf1b7332f4536f56dd3",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,8 @@
                     "dev-2.0.x": "2.0.x-dev",
                     "dev-2.1.x": "2.1.x-dev",
                     "dev-2.2.x": "2.2.x-dev",
-                    "dev-master": "2.3.x-dev"
+                    "dev-master": "2.3.x-dev",
+                    "dev-devel": "2.4.x-dev"
                 }
             },
             "autoload": {
@@ -66,9 +67,9 @@
             ],
             "support": {
                 "issues": "https://github.com/noresources/ns-php-core/issues",
-                "source": "https://github.com/noresources/ns-php-core/tree/v2.3.1"
+                "source": "https://github.com/noresources/ns-php-core/tree/v2.4.0"
             },
-            "time": "2021-06-27T11:09:34+00:00"
+            "time": "2021-09-05T17:08:29+00:00"
         },
         {
             "name": "psr/container",
@@ -1440,6 +1441,7 @@
                 "issues": "https://github.com/sebastianbergmann/resource-operations/issues",
                 "source": "https://github.com/sebastianbergmann/resource-operations/tree/master"
             },
+            "abandoned": true,
             "time": "2015-07-28T20:34:47+00:00"
         },
         {

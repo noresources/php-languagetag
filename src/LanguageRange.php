@@ -58,7 +58,7 @@ class LanguageRange implements StringRepresentation, ArrayRepresentation
 	 * @throws \InvalidArgumentException
 	 * @return LanguageRange
 	 */
-	public static function fromString($text,
+	public static function createFromString($text,
 		$type = self::TYPE_UNDEFINED)
 	{
 		$patterns = [];
@@ -100,6 +100,16 @@ class LanguageRange implements StringRepresentation, ArrayRepresentation
 					]) . ' language range');
 
 		return new LanguageRange($range, $type);
+	}
+
+	/**
+	 *
+	 * @deprecated Use createFromString()
+	 */
+	public static function fromString($text,
+		$type = self::TYPE_UNDEFINED)
+	{
+		return self::createFromString($text, $type);
 	}
 
 	/**
