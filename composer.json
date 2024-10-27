@@ -1,5 +1,5 @@
 {
-	"name": "noresources/ns-php-languagetag", 
+	"name": "noresources/languagetag", 
 	"description": "IETF BCP47 Language tag manipulation", 
 	"type": "library", 
 	"keywords": [
@@ -15,17 +15,13 @@
 		}
 	], 
 	"support": {
-		"issues": "https://github.com/noresources/ns-php-languagetag/issues"
+		"issues": "https://github.com/noresources/php-languagetag/issues"
 	}, 
 	"autoload": {
 		"psr-4": {
 			"NoreSources\\Language\\": "src/", 
 			"NoreSources\\Language\\Test\\": "tests/src/"
 		}
-	}, 
-	"require": {
-		"php": ">= 5.5", 
-		"noresources/ns-php-core": "^2.3"
 	}, 
 	"scripts": {
 		"test": "@php  ./vendor/bin/phpunit --color=never --bootstrap vendor/autoload.php tests"
@@ -35,7 +31,15 @@
 	}, 
 	"extra": {
 		"branch-alias": {
-			"dev-master": "1.1.x-dev"
+			"dev-1.1.x": "1.1.x-dev", 
+			"dev-main": "2.0.x-dev"
 		}
+	}, 
+	"replace": {
+		"noresources/ns-php-languagetag": "2.0.0"
+	}, 
+	"require": {
+		"php": ">= 7.1", 
+		"noresources/core": "^3.0"
 	}
 }

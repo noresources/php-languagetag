@@ -23,7 +23,7 @@ class SubtagRegistry implements ContainerInterface
 	 * {@inheritdoc}
 	 * @see \Psr\Container\ContainerInterface::has()
 	 */
-	public function has($type)
+	public function has(string $type) : bool
 	{
 		return \in_array($type,
 			[
@@ -46,7 +46,7 @@ class SubtagRegistry implements ContainerInterface
 	 *        	Subtag type
 	 * @return SubtagMap Subtags of the given type
 	 */
-	public function get($type)
+	public function get(string $type)
 	{
 		if (!$this->has($type))
 			throw new KeyNotFoundException($type);

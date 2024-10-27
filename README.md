@@ -1,11 +1,11 @@
-# ns-php-languagetag
+# noresources/languagetag
 
 BCP47 Language tag manipulation
 
 ## Installation
 
 ```bash
-composer require noresources/ns-php-languagetag ~1.0
+composer require noresources/languagetag
 ```
 
 ## References
